@@ -57,7 +57,7 @@ static NSString *_fontName;
 }
 
 + (NSString *)fontName {
-    return _fontName ? : @"LLIconfont";
+    return _fontName ? : @"iconfont";
 }
 
 @end
