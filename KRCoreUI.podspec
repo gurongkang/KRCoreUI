@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "KRCoreUI"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "KRCoreUI"
   s.description  = "常见核心组件封装"
   s.homepage     = "https://github.com/gurongkang"
