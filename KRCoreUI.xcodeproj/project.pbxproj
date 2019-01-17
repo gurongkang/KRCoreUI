@@ -21,6 +21,7 @@
 		54924E4421CE17AF00DA1A75 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E3921CE17AF00DA1A75 /* TBCityIconInfo.m */; };
 		54924E4521CE17AF00DA1A75 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E3B21CE17AF00DA1A75 /* UIImage+TBCityIconFont.m */; };
 		54924E4621CE17AF00DA1A75 /* KRFontImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E3F21CE17AF00DA1A75 /* KRFontImage.m */; };
+		54BF008721F067900012BA5E /* UIImage+KRClip.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF008521F067900012BA5E /* UIImage+KRClip.m */; };
 		54BF39CF21D12DA800A05C79 /* UIImage+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39CD21D12DA800A05C79 /* UIImage+KR.m */; };
 		54BF39D021D12DA800A05C79 /* NSString+KRRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39CE21D12DA800A05C79 /* NSString+KRRegex.m */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,8 @@
 		54924E3D21CE17AF00DA1A75 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
 		54924E3E21CE17AF00DA1A75 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
 		54924E3F21CE17AF00DA1A75 /* KRFontImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRFontImage.m; sourceTree = "<group>"; };
+		54BF008521F067900012BA5E /* UIImage+KRClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KRClip.m"; sourceTree = "<group>"; };
+		54BF008621F067900012BA5E /* UIImage+KRClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KRClip.h"; sourceTree = "<group>"; };
 		54BF39CB21D12DA800A05C79 /* UIImage+KR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KR.h"; sourceTree = "<group>"; };
 		54BF39CC21D12DA800A05C79 /* NSString+KRRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KRRegex.h"; sourceTree = "<group>"; };
 		54BF39CD21D12DA800A05C79 /* UIImage+KR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KR.m"; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 		54924E3121CE17AF00DA1A75 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				54BF008421F0676E0012BA5E /* Image */,
 				54924E3221CE17AF00DA1A75 /* Category */,
 				54924E3721CE17AF00DA1A75 /* KRIconFont */,
 			);
@@ -194,6 +198,15 @@
 				54924E3B21CE17AF00DA1A75 /* UIImage+TBCityIconFont.m */,
 			);
 			path = KRIconFont;
+			sourceTree = "<group>";
+		};
+		54BF008421F0676E0012BA5E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				54BF008621F067900012BA5E /* UIImage+KRClip.h */,
+				54BF008521F067900012BA5E /* UIImage+KRClip.m */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BF008721F067900012BA5E /* UIImage+KRClip.m in Sources */,
 				54924DE221CE0F6F00DA1A75 /* ViewController.m in Sources */,
 				54924DED21CE0F7100DA1A75 /* main.m in Sources */,
 				54BF39CF21D12DA800A05C79 /* UIImage+KR.m in Sources */,
