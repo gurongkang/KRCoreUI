@@ -22,6 +22,9 @@
 		54924E4521CE17AF00DA1A75 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E3B21CE17AF00DA1A75 /* UIImage+TBCityIconFont.m */; };
 		54924E4621CE17AF00DA1A75 /* KRFontImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E3F21CE17AF00DA1A75 /* KRFontImage.m */; };
 		54BF008721F067900012BA5E /* UIImage+KRClip.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF008521F067900012BA5E /* UIImage+KRClip.m */; };
+		54BF008D21F06F0C0012BA5E /* KRImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF008B21F06F0C0012BA5E /* KRImageExampleViewController.m */; };
+		54BF008E21F06F0C0012BA5E /* KRImageExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54BF008C21F06F0C0012BA5E /* KRImageExampleViewController.xib */; };
+		54BF009121F08E320012BA5E /* UIImage+TranslateColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF009021F08E320012BA5E /* UIImage+TranslateColor.m */; };
 		54BF39CF21D12DA800A05C79 /* UIImage+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39CD21D12DA800A05C79 /* UIImage+KR.m */; };
 		54BF39D021D12DA800A05C79 /* NSString+KRRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39CE21D12DA800A05C79 /* NSString+KRRegex.m */; };
 /* End PBXBuildFile section */
@@ -74,6 +77,11 @@
 		54924E3F21CE17AF00DA1A75 /* KRFontImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRFontImage.m; sourceTree = "<group>"; };
 		54BF008521F067900012BA5E /* UIImage+KRClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KRClip.m"; sourceTree = "<group>"; };
 		54BF008621F067900012BA5E /* UIImage+KRClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KRClip.h"; sourceTree = "<group>"; };
+		54BF008A21F06F0C0012BA5E /* KRImageExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRImageExampleViewController.h; sourceTree = "<group>"; };
+		54BF008B21F06F0C0012BA5E /* KRImageExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRImageExampleViewController.m; sourceTree = "<group>"; };
+		54BF008C21F06F0C0012BA5E /* KRImageExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRImageExampleViewController.xib; sourceTree = "<group>"; };
+		54BF008F21F08E320012BA5E /* UIImage+TranslateColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TranslateColor.h"; sourceTree = "<group>"; };
+		54BF009021F08E320012BA5E /* UIImage+TranslateColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TranslateColor.m"; sourceTree = "<group>"; };
 		54BF39CB21D12DA800A05C79 /* UIImage+KR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KR.h"; sourceTree = "<group>"; };
 		54BF39CC21D12DA800A05C79 /* NSString+KRRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KRRegex.h"; sourceTree = "<group>"; };
 		54BF39CD21D12DA800A05C79 /* UIImage+KR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KR.m"; sourceTree = "<group>"; };
@@ -128,6 +136,7 @@
 		54924DDC21CE0F6F00DA1A75 /* KRCoreUI */ = {
 			isa = PBXGroup;
 			children = (
+				54BF008821F06ED80012BA5E /* Example */,
 				54924E3121CE17AF00DA1A75 /* Classes */,
 				54924DDD21CE0F6F00DA1A75 /* AppDelegate.h */,
 				54924DDE21CE0F6F00DA1A75 /* AppDelegate.m */,
@@ -203,8 +212,28 @@
 		54BF008421F0676E0012BA5E /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				54BF008F21F08E320012BA5E /* UIImage+TranslateColor.h */,
+				54BF009021F08E320012BA5E /* UIImage+TranslateColor.m */,
 				54BF008621F067900012BA5E /* UIImage+KRClip.h */,
 				54BF008521F067900012BA5E /* UIImage+KRClip.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		54BF008821F06ED80012BA5E /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				54BF008921F06EED0012BA5E /* Image */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		54BF008921F06EED0012BA5E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				54BF008A21F06F0C0012BA5E /* KRImageExampleViewController.h */,
+				54BF008B21F06F0C0012BA5E /* KRImageExampleViewController.m */,
+				54BF008C21F06F0C0012BA5E /* KRImageExampleViewController.xib */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -312,6 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BF008E21F06F0C0012BA5E /* KRImageExampleViewController.xib in Resources */,
 				54924DEA21CE0F7100DA1A75 /* LaunchScreen.storyboard in Resources */,
 				54924DE721CE0F7100DA1A75 /* Assets.xcassets in Resources */,
 				54924DE521CE0F7000DA1A75 /* Main.storyboard in Resources */,
@@ -343,6 +373,7 @@
 				54924DE221CE0F6F00DA1A75 /* ViewController.m in Sources */,
 				54924DED21CE0F7100DA1A75 /* main.m in Sources */,
 				54BF39CF21D12DA800A05C79 /* UIImage+KR.m in Sources */,
+				54BF008D21F06F0C0012BA5E /* KRImageExampleViewController.m in Sources */,
 				54924E4321CE17AF00DA1A75 /* TBCityIconFont.m in Sources */,
 				54924E4421CE17AF00DA1A75 /* TBCityIconInfo.m in Sources */,
 				54924E4221CE17AF00DA1A75 /* UINib+KR.m in Sources */,
@@ -350,6 +381,7 @@
 				54924E4521CE17AF00DA1A75 /* UIImage+TBCityIconFont.m in Sources */,
 				54BF39D021D12DA800A05C79 /* NSString+KRRegex.m in Sources */,
 				54924E4621CE17AF00DA1A75 /* KRFontImage.m in Sources */,
+				54BF009121F08E320012BA5E /* UIImage+TranslateColor.m in Sources */,
 				54924E4121CE17AF00DA1A75 /* UIView+KRExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
